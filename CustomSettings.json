@@ -1,0 +1,181 @@
+{
+    "Version": "1.0",
+    "Settings": [
+        {
+            "Name": "CreateRestorePoint",
+            "Value": true
+        },
+        {
+            "Name": "RemoveApps",
+            "Value": true
+        },
+        {
+            "Name": "RemoveGamingApps",
+            "Value": true
+        },
+        {
+            "Name": "DisableTelemetry",
+            "Value": true
+        },
+        {
+            "Name": "DisableSuggestions",
+            "Value": true
+        },
+        {
+            "Name": "DisableEdgeAds",
+            "Value": true
+        },
+        {
+            "Name": "DisableLockscreenTips",
+            "Value": true
+        },
+        {
+            "Name": "DisableLocationServices",
+            "Value": true
+        },
+        {
+            "Name": "DisableSearchHistory",
+            "Value": true
+        },
+        {
+            "Name": "DisableDesktopSpotlight",
+            "Value": true
+        },
+        {
+            "Name": "DisableBing",
+            "Value": true
+        },
+        {
+            "Name": "DisableCopilot",
+            "Value": true
+        },
+        {
+            "Name": "DisableRecall",
+            "Value": true
+        },
+        {
+            "Name": "DisableClickToDo",
+            "Value": true
+        },
+        {
+            "Name": "DisablePaintAI",
+            "Value": true
+        },
+        {
+            "Name": "DisableNotepadAI",
+            "Value": true
+        },
+        {
+            "Name": "DisableEdgeAI",
+            "Value": true
+        },
+        {
+            "Name": "DisableFastStartup",
+            "Value": true
+        },
+        {
+            "Name": "DisableBitlockerAutoEncryption",
+            "Value": true
+        },
+        {
+            "Name": "DisableModernStandbyNetworking",
+            "Value": true
+        },
+        {
+            "Name": "DisableMouseAcceleration",
+            "Value": true
+        },
+        {
+            "Name": "DisableStickyKeys",
+            "Value": true
+        },
+        {
+            "Name": "DisableDVR",
+            "Value": true
+        },
+        {
+            "Name": "EnableWindowsSubsystemForLinux",
+            "Value": true
+        },
+        {
+            "Name": "DisableUpdateASAP",
+            "Value": true
+        },
+        {
+            "Name": "PreventUpdateAutoReboot",
+            "Value": true
+        },
+        {
+            "Name": "DisableDeliveryOptimization",
+            "Value": true
+        },
+        {
+            "Name": "DisableStartRecommended",
+            "Value": true
+        },
+        {
+            "Name": "DisableStartPhoneLink",
+            "Value": true
+        },
+        {
+            "Name": "DisableWidgets",
+            "Value": true
+        },
+        {
+            "Name": "HideTaskview",
+            "Value": true
+        },
+        {
+            "Name": "TaskbarAlignLeft",
+            "Value": true
+        },
+        {
+            "Name": "EnableEndTask",
+            "Value": true
+        },
+        {
+            "Name": "EnableLastActiveClick",
+            "Value": true
+        },
+        {
+            "Name": "EnableDarkMode",
+            "Value": true
+        },
+        {
+            "Name": "DisableTransparency",
+            "Value": true
+        },
+        {
+            "Name": "DisableAnimations",
+            "Value": true
+        },
+        {
+            "Name": "ShowKnownFileExt",
+            "Value": true
+        },
+        {
+            "Name": "ShowHiddenFolders",
+            "Value": true
+        },
+        {
+            "Name": "HideGallery",
+            "Value": true
+        },
+        {
+            "Name": "Hide3dObjects",
+            "Value": true
+        },
+        {
+            "Name": "ExplorerToThisPC",
+            "Value": true
+        },
+        {
+            "Name": "DisableSnapAssist",
+            "Value": true
+        },
+        {
+            "Name": "DisableSettings365Ads",
+            "Value": true
+        }
+    ]
+}
