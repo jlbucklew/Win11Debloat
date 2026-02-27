@@ -563,7 +563,7 @@
       "FriendlyName": "Microsoft 365 Companions",
       "AppId": "Microsoft.M365Companions",
       "Description": "Microsoft 365 (Business) Calendar, Files and People mini-apps, these apps may be reinstalled if enabled by your Microsoft 365 admin",
-      "SelectedByDefault": false
+      "SelectedByDefault": true
     },
     {
       "FriendlyName": "Paint 3D",
@@ -575,13 +575,13 @@
       "FriendlyName": "OneDrive",
       "AppId": "Microsoft.OneDrive",
       "Description": "OneDrive consumer cloud storage client",
-      "SelectedByDefault": false
+      "SelectedByDefault": true
     },
     {
       "FriendlyName": "Outlook for Windows",
       "AppId": "Microsoft.OutlookForWindows",
       "Description": "New Outlook for Windows mail client",
-      "SelectedByDefault": false
+      "SelectedByDefault": true
     },
     {
       "FriendlyName": "Paint",
