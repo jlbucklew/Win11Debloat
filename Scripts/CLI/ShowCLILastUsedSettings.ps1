@@ -11,6 +11,12 @@ function ShowCLILastUsedSettings {
         AwaitKeyToExit
     }
 
+    # Add default Apps parameter if RemoveApps was loaded from settings but Apps was not set.
+    # The check in the main script runs before settings are loaded from file, so it must be repeated here.
+    if ((-not $script:Params.ContainsKey("Apps")) -and $script:Params.ContainsKey("RemoveApps")) {
+        $script:Params.Add('Apps', 'Default')
+    }
+
     PrintPendingChanges
     PrintHeader 'Custom Mode'
 }
