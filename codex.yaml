@@ -1,0 +1,71 @@
+project:
+  name: "Win11Debloat"
+  description: "A lightweight PowerShell script to quickly declutter and improve the Windows experience by removing bloatware, disabling telemetry, and customizing interface elements."
+  status: active
+
+goals:
+  - id: bug-fixes
+    title: "Fix reported bugs"
+    status: in-progress
+    items:
+      - title: "Fix Microsoft Edge not shown in installed apps despite being installed (#490)"
+        status: not-started
+      - title: "Fix BitLocker disabling no longer working (#487)"
+        status: not-started
+      - title: "Fix context menu replacement no longer working (#486)"
+        status: not-started
+      - title: "Fix copy paste not working after debloat (#426)"
+        status: not-started
+      - title: "Investigate Windows Hello/PIN/DISM issues on Enterprise (#401)"
+        status: not-started
+      - title: "Investigate USB microphone recognition issue (#493)"
+        status: not-started
+
+  - id: new-features
+    title: "Implement requested features and enhancements"
+    status: in-progress
+    items:
+      - title: "Add option to disable Storage Sense (#495)"
+        status: not-started
+      - title: "Add option to disable StartupDelay in Windows 11 (#482)"
+        status: in-progress
+      - title: "Display My Computer and/or My Documents on desktop (#421)"
+        status: not-started
+      - title: "Disable automatic startup of OneDrive & Edge (#416)"
+        status: not-started
+      - title: "Disable automatic Windows Updates (#414)"
+        status: not-started
+      - title: "Security update only option for core debloated Windows 11 (#411)"
+        status: not-started
+      - title: "Remove/Uninstall SearchHost.exe from Windows (#403)"
+        status: not-started
+      - title: "Remove Microsoft Store results from Windows Search (#393)"
+        status: not-started
+      - title: "Option to clear all pinned apps from taskbar/quicklaunch (#343)"
+        status: not-started
+
+  - id: advanced-integration
+    title: "Advanced deployment and integration features"
+    status: not-started
+    items:
+      - title: "Support for answer files / unattend.xml (#331)"
+        status: not-started
+      - title: "Disable chat icon for all users (#330)"
+        status: not-started
+      - title: "Add a GPO mode (#327)"
+        status: not-started
+
+  - id: open-prs
+    title: "Review and merge open pull requests"
+    status: in-progress
+    items:
+      - title: "Add warning about removing Edge and its impact on Sandbox (PR #491)"
+        status: in-progress
+      - title: "Add option to disable StartupDelay in Windows 11 (PR #485)"
+        status: in-progress
+
+resources:
+  - type: dependency
+    description: "Requires PowerShell and Windows 10/11"
+  - type: dependency
+    description: "Uses winget for some app management operations"
